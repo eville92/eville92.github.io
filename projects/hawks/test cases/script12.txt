@@ -1,0 +1,5 @@
+program  
+  x: double;
+begin
+  x:= 3.14159;
+end;
