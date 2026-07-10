@@ -1,8 +1,7 @@
 /*
     Estevan Villegas
     CSCI 4355.01
-    ID: 225245
-    
+	
     Term Project: Hawk     
     A scanner and recursive descent parser 
 */
