@@ -19,21 +19,22 @@ A scanner and a recursive descent parser that will take as input a program writt
 
 ## Project Structure
 hawks/
-|--hawks.c
-|--input.txt
-|--test-cases/
-|  |--script1.txt
-|  |--script2.txt
-|  |--script3.txt
-|  |--script4.txt
-|  |--script5.txt
-|  |--script6.txt
-|  |--script11.txt
-|  |--script12.txt
-|  |--script13.txt
-|  |--script14.txt
-|  |__script15.txt
-|__README.md
+│
+├── hawks.c
+├── input.txt
+├── test-cases/
+│   ├── script1.txt
+│   ├── script2.txt
+│   ├── script3.txt
+│   ├── script4.txt
+│   ├── script5.txt
+│   ├── script6.txt
+│   ├── script11.txt
+│   ├── script12.txt
+│   ├── script13.txt
+│   ├── script14.txt
+│   └── script15.txt
+└──README.md
 
 ## Notes
 
