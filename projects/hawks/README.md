@@ -7,10 +7,12 @@ A scanner and a recursive descent parser that will take as input a program writt
 
 1. Must have ```hawks.c``` and ```input.txt``` in the same folder.
 2. Compile ```hawks.c``` via: 
-   ```gcc hawks.c -o hawks```
-3. Run ```hawks``` via:
-   ```./hawks```
-4. To test different cases, open input.txt and paste any test case from the test-cases folder. Each test case contains a script written in the custom language. Running the program will parse the contents of input.txt and display results or errors.
+   ```bash
+   gcc hawks.c -o hawks```
+4. Run ```hawks``` via:
+   ```bash
+   ./hawks```
+6. To test different cases, open input.txt and paste any test case from the test-cases folder. Each test case contains a script written in the custom language. Running the program will parse the contents of input.txt and display results or errors.
 
 ## Project Structure
 ```
