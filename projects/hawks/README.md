@@ -18,6 +18,7 @@ A scanner and a recursive descent parser that will take as input a program writt
 4. Edit 'input.txt' to try different test cases provided in 'test cases' folder. It's suggested to copy script program code & paste into 'input.txt' file to run.
 
 ## Project Structure
+```
 hawks/
 │
 ├── hawks.c
@@ -35,6 +36,7 @@ hawks/
 │   ├── script14.txt
 │   └── script15.txt
 └── README.md
+```
 
 ## Notes
 
