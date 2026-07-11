@@ -41,5 +41,3 @@ hawks/
 - The parser follows a recursive descent design based on the grammar provided in the assignment. 
 - Error messages are generated when invalid tokens or grammar violations are detected.
 - You can modify ```input.txt```freely to test your own scripts. 
-
-## Optional Links
