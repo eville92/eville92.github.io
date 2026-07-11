@@ -22,22 +22,10 @@ Programs must be compiled before running.
 
 ## Project Structure
 ```
-hawks/
+client-server/
 │
-├── hawks.c
-├── input.txt
-├── test-cases/
-│   ├── script1.txt
-│   ├── script2.txt
-│   ├── script3.txt
-│   ├── script4.txt
-│   ├── script5.txt
-│   ├── script6.txt
-│   ├── script11.txt
-│   ├── script12.txt
-│   ├── script13.txt
-│   ├── script14.txt
-│   └── script15.txt
+├── client.c
+├── server.c
 └── README.md
 ```
 
