@@ -34,7 +34,7 @@ hawks/
 │   ├── script13.txt
 │   ├── script14.txt
 │   └── script15.txt
-└──README.md
+└── README.md
 
 ## Notes
 
