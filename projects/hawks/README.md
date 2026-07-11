@@ -1,21 +1,16 @@
 # Hawks - Scanner & Recursive Descent Parser
 
 ## Description
-
 A scanner and a recursive descent parser that will take as input a program written in the provided language. In addition to parsing the input programs, the program generates the proper errors when encountered.
 
 ## Instructions
 
-1. Must have 'hawks.c' and 'input.txt' in the same folder.
-2. Compile 'hawks.c' via: 
-   ```bash
-   gcc hawks.c -o hawks
-   ```
-3. Run 'hawks' via:
-   ```bash
-      ./hawks
-   ```
-4. Edit 'input.txt' to try different test cases provided in 'test cases' folder. It's suggested to copy script program code & paste into 'input.txt' file to run.
+1. Must have ```hawks.c``` and ```input.txt``` in the same folder.
+2. Compile ```hawks.c``` via: 
+   ```gcc hawks.c -o hawks```
+3. Run ```hawks``` via:
+   ```./hawks```
+4. To test different cases, open input.txt and paste any test case from the test-cases folder. Each test case contains a script written in the custom language. Running the program will parse the contents of input.txt and display results or errors.
 
 ## Project Structure
 ```
@@ -39,5 +34,8 @@ hawks/
 ```
 
 ## Notes
+- The parser follows a recursive descent design based on the grammar provided in the assignment. 
+- Error messages are generated when invalid tokens or grammar violations are detected.
+- You can modify ```input.txt```freely to test your own scripts. 
 
 ## Optional Links
