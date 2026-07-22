@@ -1,4 +1,4 @@
-;;these are comments. 
+;; Written in 2025
 
 (defun dist-from-orig (x y &optional (z 0))
     "computes 3-d distance from origin"
