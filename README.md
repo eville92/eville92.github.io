@@ -1,1 +1,2 @@
-A collection of my projects. Will add more in the future!
+Computer Science major and a Cybersecurity minor projected to graduate in December 2026. 
+I am Cybersecurity‑oriented, an aspiring pentester, and a reverse‑engineering enthusiast who enjoys breaking things apart to understand how they work.
