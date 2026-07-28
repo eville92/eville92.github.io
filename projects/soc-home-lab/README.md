@@ -7,24 +7,30 @@ a Windows 11 endpoint, an SOC server, and an attackbox.
 
 For the SIEM VM, it is recommended to have 8gb RAM (base memory: 8192 MB).
 
-## VM Recommended Specs
+## VM Recommended Specifications
 ### SIEM
+- OS: Ubuntu 22.04
 - CPU: 4
 - RAM: 8GB
+- Storage: 60GB
 
 ### Suricata
+- OS: Ubuntu 22.04
 - CPU: 4
 - RAM: 8GB
+- Storage: 50GB
 
-### In Progress
-- VM setup:
-![Oracle VirtualBox Manager](assets/VMs-overview.png)
+### Windows 11 Endpoint
+- OS: Windows 11
+- CPU: 
+- RAM: 
+- Storage: 
 
-- SIEM and Suricata VMs:
-![SIEM and Suricata IDS](assets/siem-suricata.png)
-- [Wazuh indexer](https://documentation.wazuh.com/current/installation-guide/wazuh-indexer/installation-assistant.html) installed:
-- Windows 11 setup still needed.
-- Suricata installation is still required. 
+### Kali (Attacker)
+- OS: 
+- CPU: 8
+- RAM: 12GB
+- Storage: 50GB
 
 ## Tools & Programs
 - [VirtualBox](https://www.virtualbox.org/)
@@ -36,4 +42,18 @@ For the SIEM VM, it is recommended to have 8gb RAM (base memory: 8192 MB).
 
 ## Notes
 - SIEM VM froze / CPU#1 lock
-- Downgraded from Ubuntu 26.04 to 22.04 for both SIEM and Suricata IDS VMs. 
+- Downgraded from Ubuntu 26.04 to 22.04 for both SIEM and Suricata IDS VMs in order to get installed tools working properly. 
+
+## In Progress
+### Completed
+- VM overview:
+![Oracle VirtualBox Manager](assets/VMs-overview.png)
+- SIEM & Suricata IDS VMs setup
+![SIEM and Suricata IDS](assets/siem-suricata.png)
+- Attackbox VM setup
+![Attackbox and SSH](assets/attackbox.png)
+
+### To-Do
+- Windows 11 VM setup
+- Wazuh Installed on SIEM VM
+- Suricata Installed on Suricata IDS VM
