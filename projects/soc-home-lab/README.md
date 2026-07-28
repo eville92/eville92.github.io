@@ -5,29 +5,27 @@ A hands-on Security Operations Center lab environment with SIEM and Suricata IDS
 used to simulate attacks, generate logs, and develop detection rules. Four VMs will be used: a linux server, 
 a Windows 11 endpoint, an SOC server, and an attackbox.
 
-For the SIEM VM, it is recommended to have 8gb RAM (base memory: 8192 MB).
-
-## VM Recommended Specifications
+## VM Specifications Used
 ### SIEM
-- OS: Ubuntu 22.04
+- OS: Ubuntu 22.04.5 LTS
 - CPU: 4
 - RAM: 8GB
 - Storage: 60GB
 
-### Suricata
-- OS: Ubuntu 22.04
+### Suricata IDS
+- OS: Ubuntu 22.04.5 LTS
 - CPU: 4
 - RAM: 8GB
 - Storage: 50GB
 
-### Windows 11 Endpoint
+### Endpoint
 - OS: Windows 11
-- CPU: 
-- RAM: 
-- Storage: 
+- CPU: 4
+- RAM: 4GB
+- Storage: 60GB
 
-### Kali (Attacker)
-- OS: 
+### Attackbox
+- OS: Kali 2026.2
 - CPU: 8
 - RAM: 12GB
 - Storage: 50GB
@@ -41,10 +39,12 @@ For the SIEM VM, it is recommended to have 8gb RAM (base memory: 8192 MB).
 - [Suricata](https://suricata.io/)
 
 ## Notes
-- SIEM VM froze / CPU#1 lock
-- Downgraded from Ubuntu 26.04 to 22.04 for both SIEM and Suricata IDS VMs in order to get installed tools working properly. 
+- Started project over due to Ubuntu version (26.04) issues. 
+- SIEM and Suricata IDS VMs were recreated with Ubuntu 22.04 LTS. 
 
 ## In Progress
+I will be updating my overall progress and issues I am having. Issues will be noted in Notes section as well. 
+
 ### Completed
 - VM overview:
 ![Oracle VirtualBox Manager](assets/VMs-overview.png)
@@ -55,5 +55,5 @@ For the SIEM VM, it is recommended to have 8gb RAM (base memory: 8192 MB).
 
 ### To-Do
 - Windows 11 VM setup
-- Wazuh Installed on SIEM VM
+- Wazuh Installed on SIEM VM: next project session 
 - Suricata Installed on Suricata IDS VM
