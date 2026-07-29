@@ -58,3 +58,10 @@ I will be updating my overall progress and issues I am having. Issues will be no
 
 ### To-Do
 - Windows 11 VM setup
+- Files installed on Windows:
+- [ ] Sysmon.exe
+- [ ] Wazuh agent
+- [ ] Sysinternals Suite
+- [ ] Atomic Red Team PowerShell module
+- [ ] Caldera agent (optiona)
+- [ ] EICAR test file (optional)
