@@ -54,7 +54,7 @@ I will be updating my overall progress and issues I am having. Issues will be no
 ![Attackbox and SSH](assets/attackbox.png)
 - Wazuh and Suricata installed
 ![Wazuh Dashboard GUI](assets/wazuh-dashboard.png)
-![Triggered Alerts](assets/wazuh-alerts)
+![Triggered Alerts](assets/wazuh-alerts.png)
 
 ### To-Do
 - Windows 11 VM setup
