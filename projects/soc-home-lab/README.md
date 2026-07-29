@@ -2,8 +2,8 @@
 
 ## Description
 A hands-on Security Operations Center lab environment with SIEM and Suricata IDS integrated on a controlled network, 
-used to simulate attacks, generate logs, and develop detection rules. Four VMs will be used: a linux server, 
-a Windows 11 endpoint, an SOC server, and an attackbox.
+used to simulate attacks, generate logs, and develop detection rules. Four VMs will be used: SIEM server, 
+IDS server, an endpoint workstation, and an attackbox. 
 
 ## VM Specifications Used
 ### SIEM
@@ -21,26 +21,27 @@ a Windows 11 endpoint, an SOC server, and an attackbox.
 ### Endpoint
 - OS: Windows 11
 - CPU: 4
-- RAM: 4GB
+- RAM: 8GB
 - Storage: 60GB
 
 ### Attackbox
 - OS: Kali 2026.2
 - CPU: 8
 - RAM: 12GB
-- Storage: 50GB
+- Storage: 64GB
 
 ## Tools & Programs
 - [VirtualBox](https://www.virtualbox.org/)
-- [Windows 11 Enterprise ISO](https://info.microsoft.com/ww-landing-windows-11-enterprise.html)
-- [Ubuntu Server ISO](https://ubuntu.com/download/server)
+- [Windows 11](https://www.microsoft.com/en-us/software-download/windows11)
+- [Ubuntu Server](https://ubuntu.com/download/server)
 - [Kali Linux](https://www.kali.org/)
 - [Wazuh](https://wazuh.com/)
 - [Suricata](https://suricata.io/)
 
 ## Notes
-- Started project over due to Ubuntu version (26.04) issues. 
-- SIEM and Suricata IDS VMs were recreated with Ubuntu 22.04 LTS. 
+- Started project over due issues installing Wazuh on the newest version of Ubuntu (26.04). 
+- Wazuh does not support versions past 22.04 on Ubuntu.
+- Make sure Windows 11 ISO is stored locally if using VirtualBox. 
 
 ## In Progress
 I will be updating my overall progress and issues I am having. Issues will be noted in Notes section as well. 
