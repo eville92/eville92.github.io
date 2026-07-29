@@ -52,8 +52,9 @@ I will be updating my overall progress and issues I am having. Issues will be no
 ![SIEM and Suricata IDS](assets/siem-suricata.png)
 - Attackbox VM setup
 ![Attackbox and SSH](assets/attackbox.png)
+- Wazuh and Suricata installed
+![Wazuh Dashboard GUI](assets/wazuh-dashboard.png)
+![Triggered Alerts](assets/wazuh-alerts)
 
 ### To-Do
 - Windows 11 VM setup
-- Wazuh Installed on SIEM VM: next project session 
-- Suricata Installed on Suricata IDS VM
