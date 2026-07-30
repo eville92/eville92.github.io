@@ -18,7 +18,7 @@ IDS server, an endpoint workstation, and an attackbox.
 - RAM: 8GB
 - Storage: 50GB
 
-### Endpoint
+### Endpoint Workstation
 - OS: Windows 11
 - CPU: 4
 - RAM: 8GB
@@ -37,14 +37,16 @@ IDS server, an endpoint workstation, and an attackbox.
 - [Kali Linux](https://www.kali.org/)
 - [Wazuh](https://wazuh.com/)
 - [Suricata](https://suricata.io/)
+- [Rufus](https://rufus.ie/en/)
 
 ## Notes
 - Started project over due issues installing Wazuh on the newest version of Ubuntu (26.04). 
 - Wazuh does not support versions past 22.04 on Ubuntu.
-- Make sure Windows 11 ISO is stored locally if using VirtualBox. 
-
+- Bypass "Let's connect you to a network" screen with type `Shift + F10` and then `OOBE\BYPASSNRO`. Windows restarts initial setup:
+![Before](assets/windows11-net-install.png)
+![After `OOBE\BYPASSNRO` command](windows11-no-net-install.png)
 ## In Progress
-I will be updating my overall progress and issues I am having. Issues will be noted in Notes section as well. 
+I was having issues installing Windows 11 without internet connection. 
 
 ### Completed
 - VM overview:
@@ -58,11 +60,11 @@ I will be updating my overall progress and issues I am having. Issues will be no
 ![Triggered Alerts](assets/wazuh-alerts.png)
 
 ### To-Do
-- Windows 11 VM setup
-- Files installed on Windows:
-- [ ] Sysmon.exe
-- [ ] Wazuh agent
-- [ ] Sysinternals Suite
-- [ ] Atomic Red Team PowerShell module
-- [ ] Caldera agent (optiona)
-- [ ] EICAR test file (optional)
+[ ] Install Windows 11 OS
+[ ] Files installed on Windows:
+- Sysmon.exe
+- Wazuh agent
+- Sysinternals Suite
+- Atomic Red Team PowerShell module
+- Caldera agent (optiona)
+- EICAR test file (optional)
