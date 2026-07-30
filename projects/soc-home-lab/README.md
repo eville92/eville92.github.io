@@ -44,7 +44,7 @@ IDS server, an endpoint workstation, and an attackbox.
 - Wazuh does not support versions past 22.04 on Ubuntu.
 - Bypass "Let's connect you to a network" screen with type `Shift + F10` and then `OOBE\BYPASSNRO`. Windows restarts initial setup:
 ![Before](assets/windows11-net-install.png)
-![After `OOBE\BYPASSNRO` command](windows11-no-net-install.png)
+![After `OOBE\BYPASSNRO` command](assets/windows11-no-net-install.png)
 ## In Progress
 I was having issues installing Windows 11 without internet connection. 
 
